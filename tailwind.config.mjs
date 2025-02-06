@@ -16,6 +16,10 @@ export default {
       },
     },
   },
-  safelist: ["text-counterspell-pink", "text-tampahacks-blue"],
+  safelist: [
+    "text-counterspell-pink",
+    "text-tampahacks-blue",
+    "text-scrapyard-yellow",
+  ],
   plugins: [],
 };
