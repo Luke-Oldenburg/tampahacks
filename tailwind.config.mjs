@@ -12,6 +12,7 @@ export default {
         "tampahacks-gray": "#1D1D1D",
         "tampahacks-blue": "#0582D9",
         "counterspell-pink": "#FF4186",
+        "scrapyard-yellow": "#FFF537",
       },
     },
   },

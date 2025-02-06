@@ -21,6 +21,7 @@ import Counterspell8 from "../assets/photos/counterspell8.jpg";
 import Layout from "../layouts/Layout.astro";
 import Event from "../components/Event.astro";
 import Email from "../components/Email.astro";
+import ScrapyardTampaLogo from "../assets/scrapyard-tampa.png";
 import CounterspellTampaLogo from "../assets/counterspell-tampa.png";
 import TampaHacksLogo from "../assets/tampahacks.png";
 ---
@@ -38,6 +39,13 @@ import TampaHacksLogo from "../assets/tampahacks.png";
       >
         events
       </h2>
+      <Event
+        name="Scrapyard Tampa"
+        desc="Build stupid things, get stupid prizes in this event being hosted in more than 100 cities!"
+        color="scrapyard-yellow"
+        image={ScrapyardTampaLogo}
+        link="https://scrapyard.hackclub.com/tampa"
+      />
       <Event
         name="Counterspell Tampa"
         desc="A beginner friendly game jam that happened in 60 cities around the world!"
