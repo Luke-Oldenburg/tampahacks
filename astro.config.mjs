@@ -7,6 +7,5 @@ export default defineConfig({
   integrations: [tailwind()],
   redirects: {
     "/counterspell": "https://counterspell.hackclub.com/tampa",
-    "/scrapyard": "https://scrapyard.hackclub.com/tampa",
   },
 });
